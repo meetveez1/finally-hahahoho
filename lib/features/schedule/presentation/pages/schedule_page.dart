@@ -26,8 +26,8 @@ class SchedulePage extends StatelessWidget {
         const SizedBox(height: 6),
         Text('Класс 9Б', style: Theme.of(context).textTheme.bodyLarge?.copyWith(color: Colors.grey)),
         const SizedBox(height: 14),
-        Row(
-          children: const [
+        const Row(
+          children: [
             _DayTab(text: 'Понедельник', active: true),
             SizedBox(width: 8),
             _DayTab(text: 'Вторник', active: false),

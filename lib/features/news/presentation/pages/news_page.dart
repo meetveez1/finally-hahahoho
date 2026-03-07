@@ -22,12 +22,12 @@ class NewsPage extends StatelessWidget {
           style: Theme.of(context).textTheme.bodyLarge?.copyWith(color: Colors.grey),
         ),
         const SizedBox(height: 14),
-        _NewsCard(
+        const _NewsCard(
           title: 'Начало нового учебного года',
           text: '1 сентября наша школа открыла двери для всех учеников.',
         ),
         const SizedBox(height: 14),
-        _NewsCard(
+        const _NewsCard(
           title: 'Спортивный турнир между классами',
           text: 'Команды 9-х классов заняли призовые места.',
         ),
