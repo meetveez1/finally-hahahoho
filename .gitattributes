@@ -1,0 +1,25 @@
+# Keep Gradle/Flutter project files as text with normalized LF endings.
+* text=auto
+
+*.gradle text eol=lf
+*.kts text eol=lf
+*.properties text eol=lf
+*.xml text eol=lf
+*.yaml text eol=lf
+*.yml text eol=lf
+*.dart text eol=lf
+
+# Common binary assets (do not diff/merge as text)
+*.png binary
+*.jpg binary
+*.jpeg binary
+*.gif binary
+*.webp binary
+*.ico binary
+*.keystore binary
+*.jks binary
+*.so binary
+*.aar binary
+*.jar binary
+*.aab binary
+*.apk binary
